@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:text="hola">
+    </TextView>
+
+
+
+
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="switch"
+        android:title="Use Data"
+        android:summary="Allow to use data when offline"
+        android:defaultValue="true"/>
+    <SwitchPreference
+        android:key="switch"
+        android:title="Dark theme"
+        android:summary="Switch between normal and dark theme"
+        android:defaultValue="true"/>
+    <EditTextPreference
+        android:title="Equalizer"
+        android:summary="Configure the sound settings"/>
+    <EditTextPreference
+        android:title="Version"
+        android:summary="1.0.0.0.1"/>
+    <EditTextPreference
+        android:title="Terms of service"
+        android:summary="Important information"/>
+    <EditTextPreference
+        android:title="Log out"
+        android:summary="Finish current session as AccountName"/>
+</PreferenceScreen>
+</LinearLayout>
